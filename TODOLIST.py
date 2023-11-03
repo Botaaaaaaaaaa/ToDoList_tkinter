@@ -9,6 +9,7 @@ class Task:
     def __str__(self):
         return f"Задача: {self.title}\nОписание: {self.description}\nДедлайн: {self.deadline}\nСтатус задачи: {self.status}"
 
+
 class ToDoList:
     def __init__(self):
         self.tasks = []

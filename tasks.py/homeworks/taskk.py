@@ -15,3 +15,7 @@
 # print(z[::-1])
 a="abrakadabra"
 print(a[6:])
+
+
+
+
