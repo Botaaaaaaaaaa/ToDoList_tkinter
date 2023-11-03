@@ -38,6 +38,7 @@ root.title("Список задач")
 
 task_entry = tk.Entry(root)
 task_entry.pack(pady=10)
+
 add_button = tk.Button(root, text="Добавить задачу", command=add_task).pack()
 delete_button = tk.Button(root, text="Удалить задачу", command=delete_task).pack()
 edit_button = tk.Button(root, text="Редактировать задачу", command=edit_task).pack()
